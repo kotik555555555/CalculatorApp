@@ -23,5 +23,10 @@ double divide(int a, int b) {
 
 int main() {
     cout << "Калькулятор функцій" << endl;
+    cout << "3 + 2 = " << add(3, 2) << endl;
+    cout << "5 - 1 = " << subtract(5, 1) << endl;
+    cout << "4 * 2 = " << multiply(4, 2) << endl;
+    cout << "10 / 2 = " << divide(10, 2) << endl;
     return 0;
+    }
 }
