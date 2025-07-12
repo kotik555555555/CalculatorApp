@@ -20,3 +20,8 @@ double divide(int a, int b) {
     }
     return (double)a / b;
 }
+
+int main() {
+    cout << "Калькулятор функцій" << endl;
+    return 0;
+}
